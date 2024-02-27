@@ -1,0 +1,12 @@
+apiVersion: mygroup.wunicorns.com/v1
+kind: MyK8sApp
+metadata:
+  labels:
+    app.kubernetes.io/name: myk8sapp
+    app.kubernetes.io/instance: myk8sapp-sample
+    app.kubernetes.io/part-of: k8s
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: k8s
+  name: myk8sapp-sample
+spec:
+  # TODO(user): Add fields here

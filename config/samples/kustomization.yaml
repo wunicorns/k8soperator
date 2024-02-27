@@ -1,0 +1,5 @@
+## Append samples of your project ##
+resources:
+- mygroup_v1_myapp.yaml
+- mygroup_v1_myk8sapp.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
